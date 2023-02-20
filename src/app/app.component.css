@@ -1,0 +1,120 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.container{
+    width: 70%;
+    min-height: 500px;
+    background:rgb(245, 247, 248);
+    margin:50px 0;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(202, 203, 204);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.image{
+    margin-right: 3%;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgb(44, 173, 26);
+}
+.input_section{
+    width: 100%;
+    height: 70px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    width: 74%;
+    color:rgb(156, 16, 16);
+    font-size: 12px;
+}
+.input{
+    width: 70%;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgb(202, 203, 204);
+    font-size: 16px;
+}
+.btn_add{
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: linear-gradient(rgb(200, 243, 9), rgb(44, 173, 26));
+  box-shadow: 2px 2px 5px rgb(202, 203, 204);
+  color: white;
+  font-size: 26px;
+}
+.btn_add:hover{
+    cursor: pointer;
+  }
+hr{
+    width: 90%;
+    margin: 10px 10px 30px 10px;
+    border: none;
+	border-top: 1px solid rgb(189, 188, 187);
+}
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:#6a6c6d;
+    list-style-type: none;
+    margin: 20px;
+}
+.checkbox{
+    -webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	position: relative;
+}
+.checkbox:checked {
+	background-color: #e9eeeb;
+	border: 1px solid rgb(44, 173, 26);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+}
+.checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+    font-weight: bold;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: rgb(44, 173, 26);
+}
+.btn_delete{
+    border: none;
+    background: none;
+    font-size: 18px;
+    margin-left: 30px;
+    color: #585858;
+}
+.btn_delete:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+  }
